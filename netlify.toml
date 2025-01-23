@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"  # or ng build --prod for Angular
+  publish = "dist/your-project-name"  # Replace with your actual build output folder
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
