@@ -8,7 +8,7 @@
     }
   },
   "projects": {
-    "ecommerce-homepage": {
+    "bigtokri": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -29,7 +29,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/ecommerce-homepage",
+            "outputPath": "dist/bigtokri",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -84,10 +84,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ecommerce-homepage:build:production"
+              "buildTarget": "bigtokri:build:production"
             },
             "development": {
-              "buildTarget": "ecommerce-homepage:build:development"
+              "buildTarget": "bigtokri:build:development"
             }
           },
           "defaultConfiguration": "development"
